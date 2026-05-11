@@ -34,6 +34,9 @@ position: relative;
     color:white;
     border: none;
 }
+.menu{
+    display: none;
+}
 .text{
     display: flex;
     flex-direction: column;
@@ -50,4 +53,54 @@ position: relative;
     color:white;
     background-color: #016CA8;
     font-weight: 600;
+}
+.h1{
+    padding:50px;
+    color: #1178B2;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    flex-direction: column;
+
+}
+.topone{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+   
+}
+.bottomone{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:150px;
+    margin-top: 50px;  
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.know{
+    width:40%;
+    padding:20px;
+    background-color: #07AF91;
+    color:white;
+    border-radius: 10px;
+    border: none;
+}
+@media(max-width:510px){
+    .menu{
+        display: block;
+    }
+    .topone, .bottomone{
+        flex-direction: column;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        width:90%;
+    }
 }
