@@ -10,7 +10,13 @@ position: relative;
    color: black;
    display: flex;
    flex-direction: column;
+   width:100%;
+   height:100vh;
    justify-content: space-around;
+   background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(128, 128, 128, 0.262)),url("./uae-4-2048x1367\ 2.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 .top{
     display: flex;
@@ -118,6 +124,13 @@ position: relative;
 .section2{
     margin-top: 100px;
     position: relative;
+     width:100%;
+   height:60vh;
+   
+   background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(128, 128, 128, 0.262)),url("./startup\ 3.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 .start{
     width:100%;
@@ -132,9 +145,121 @@ position: relative;
     top:100px;
     left:300px;
 }
+.line{
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    
+    display: flex;
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px ;
+  
+
+}
+.it{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #016CA8;
+    padding:10px;
+    text-align: center;
+    color:white;
+    font-weight: 600;
+}
+.it1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+background-color: #EEF1F4;
+padding:10px;
+text-align: center;
+color:grey;
+}
+.it2{
+    grid-column-start: 3;
+    grid-column-end: 4;  
+background-color: #EEF1F4;
+padding:10px;
+text-align: center;
+color:grey;
+}
+
+.it3{
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    background-color: #EEF1F4;
+    padding:10px;
+    text-align: center;
+    color:grey; 
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    position: relative;
+}
+.map{
+    width:60%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap:200px;
+    top:200px;
+    left:200px;
+}
+.cenright,.cenleft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.duo{
+    display: flex;
+    gap:20px;
+}
+.cardl{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 15px grey;
+    background-color: white;
+}
+.foto{
+    align-items: center;
+    display: flex;
+    gap:10px;
+}
+.bot3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: baseline;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding:30px;
+    border-radius:20px ;
+    box-shadow: 0px 0px 15px grey;
+
+}
+
 @media(max-width:510px){
     .menu{
         display: block;
+    }
+    .mid{
+        display: none;
     }
     .topone, .bottomone{
         flex-direction: column;
@@ -150,5 +275,61 @@ position: relative;
         flex-direction: column;
         row-gap: 10px;
 
+    }
+    .section1{
+        width:80%;
+    }
+    .topone{
+        flex-direction: column-reverse;
+    }
+    .pp{
+        width:90%;
+    }
+    .imr{
+        width:90%;
+    }
+    .card{
+        width:80%;
+    }
+    .tex{
+        left:30px;
+        top:10px;
+        width:80%;
+    }
+    .line{
+        width:70%;
+      display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .it, .it1, .it2, .it3{
+        width:80px;
+    }
+    .map{
+        width:90%;
+    }
+    .center{
+        flex-direction: column;
+        left:-100px;
+        top:-30px;
+        row-gap: 30px;
+    }
+    .duo{
+        width: 60%;
+        margin-left:150px;
+    }
+    .row3{
+        flex-direction: column;
+        row-gap: 20px;
+        width:100%;
+        
+    }
+    .bot3{
+        margin-top: 600px;
+       
+    }
+    .card3{
+        width: 80%;
+        display: flex;
     }
 }
