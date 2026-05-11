@@ -310,7 +310,7 @@ color:grey;
   color: #0066ff;
   font-weight: bold;
   margin-right: 20px;
-  white-space: nowrap;
+  
 }
 
 .module-text {
@@ -328,7 +328,7 @@ color:grey;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: monospace;
+  
   font-weight: bold;
 }
 
@@ -345,7 +345,7 @@ color:grey;
 }
 
 .module-footer {
-  color: #0066ff !important;
+  color: #0066ff ;
   margin-top: 15px;
   font-weight: 500;
 }
@@ -366,7 +366,47 @@ color:grey;
   font-weight: bold;
   font-size: 16px;
   margin-top: 30px;
-  cursor: pointer;
+  
+}
+.blue{
+    position: relative;
+   
+}
+.ob{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:-100px;
+    padding: 80px;
+}
+.rigblue{
+    display: flex;
+    flex-direction: column;
+    row-gap:-100px;
+
+}
+.imrow{
+    display: flex;
+    gap:20px;
+}
+.lefblue{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color:white;
+
+}
+.zap{
+    padding:20px;
+    width:70%;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color:#07AF91 ;
+   
 }
 
 
@@ -487,4 +527,15 @@ font-size: 20px;
     width: 100%;
     font-size: 14px;
   }
+  .bl{
+    height:50vh
+  }
+  .lefblue{
+    margin-top:30px;
+  }
+  .ob{
+    flex-direction: column;
+    
+  }
+  
 }
