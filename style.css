@@ -816,11 +816,29 @@ input{
 form{
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-   
-    
+    row-gap: 10px;  
 }
-
+.footer{
+    margin-top: 15px;
+    position: relative;
+}
+.foot{
+    width:100%;
+}
+.sec{
+    display: flex;
+    gap:20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:20px;
+    left:160px;
+    color:white;
+    gap:130px
+}
 @media(max-width:510px){
     .menu{
         display: block;
@@ -1060,5 +1078,14 @@ width:90%;
   }
   .i12{
     height:110vh;
+  }
+  .foot{
+    height:24vh;
+  }
+  .main{
+    flex-direction: column;
+    left:20px;
+    top:10px;
+    row-gap: 20px;
   }
 }
