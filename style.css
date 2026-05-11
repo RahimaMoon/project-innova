@@ -253,6 +253,26 @@ color:grey;
     box-shadow: 0px 0px 15px grey;
 
 }
+.pause{
+    margin-top: 50px;
+    position: relative;
+}
+.on{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top:320px;
+    left:500px;
+}
+.ps{
+  width:130px;  
+}
+.pst{
+    color:white;
+}
 
 @media(max-width:510px){
     .menu{
@@ -331,5 +351,15 @@ color:grey;
     .card3{
         width: 80%;
         display: flex;
+    }
+    .on{
+        left:40px;
+        top:40px;
+    }
+    .ps{
+        width:60px;
+    }
+    .pst{
+font-size: 20px;
     }
 }
