@@ -2,9 +2,7 @@
     margin:0;
     font-family: sans-serif;
 }
-.mainimg{
-    
-}
+
 .header{
 position: relative;
    color: black;
@@ -408,6 +406,17 @@ color:grey;
     background-color:#07AF91 ;
    
 }
+.section4{
+    margin-top: 100px;
+
+}
+.row4{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 
 
 
@@ -536,6 +545,12 @@ font-size: 20px;
   .ob{
     flex-direction: column;
     
+  }
+  .section4{
+    margin-top:1100px;
+  }
+  .row4{
+    flex-direction: column;
   }
   
 }
